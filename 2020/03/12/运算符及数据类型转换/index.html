@@ -13,17 +13,17 @@
   <meta name="description" content="1 运算符及数据类型转换1 变量–&gt; 数据类型 变量; 2 数据类型：基本数据类型8 引用数据类型">
 <meta property="og:type" content="article">
 <meta property="og:title" content="运算符及数据类型转换">
-<meta property="og:url" content="http://yoursite.com/2020/03/14/%E8%BF%90%E7%AE%97%E7%AC%A6%E5%8F%8A%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2/index.html">
+<meta property="og:url" content="http://yoursite.com/2020/03/12/%E8%BF%90%E7%AE%97%E7%AC%A6%E5%8F%8A%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2/index.html">
 <meta property="og:site_name" content="Mirealk Blog">
 <meta property="og:description" content="1 运算符及数据类型转换1 变量–&gt; 数据类型 变量; 2 数据类型：基本数据类型8 引用数据类型">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="http://yoursite.com/2020/03/14/%E8%BF%90%E7%AE%97%E7%AC%A6%E5%8F%8A%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2/%E5%9B%BE%E7%89%871.png">
-<meta property="og:image" content="http://yoursite.com/2020/03/14/%E8%BF%90%E7%AE%97%E7%AC%A6%E5%8F%8A%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2/%E5%9B%BE%E7%89%872.png">
-<meta property="article:published_time" content="2020-03-13T16:00:00.000Z">
-<meta property="article:modified_time" content="2020-03-14T13:34:20.463Z">
+<meta property="og:image" content="http://yoursite.com/2020/03/12/%E8%BF%90%E7%AE%97%E7%AC%A6%E5%8F%8A%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2/%E5%9B%BE%E7%89%871.png">
+<meta property="og:image" content="http://yoursite.com/2020/03/12/%E8%BF%90%E7%AE%97%E7%AC%A6%E5%8F%8A%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2/%E5%9B%BE%E7%89%872.png">
+<meta property="article:published_time" content="2020-03-12T13:30:55.000Z">
+<meta property="article:modified_time" content="2020-03-14T13:51:52.293Z">
 <meta property="article:author" content="尘尽光生">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://yoursite.com/2020/03/14/%E8%BF%90%E7%AE%97%E7%AC%A6%E5%8F%8A%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2/%E5%9B%BE%E7%89%871.png">
+<meta name="twitter:image" content="http://yoursite.com/2020/03/12/%E8%BF%90%E7%AE%97%E7%AC%A6%E5%8F%8A%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2/%E5%9B%BE%E7%89%871.png">
   
     <link rel="alternative" href="/atom.xml" title="Mirealk Blog" type="application/atom+xml">
   
@@ -221,8 +221,8 @@
               <i class="icon-smile icon"></i> 阅读数：<span id="busuanzi_value_page_pv"></span>次
         </span>
 
-<a href="/2020/03/14/%E8%BF%90%E7%AE%97%E7%AC%A6%E5%8F%8A%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2/" class="archive-article-date">
-        <time datetime="2020-03-13T16:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-03-14</time>
+<a href="/2020/03/12/%E8%BF%90%E7%AE%97%E7%AC%A6%E5%8F%8A%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2/" class="archive-article-date">
+        <time datetime="2020-03-12T13:30:55.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-03-12</time>
 </a>
 
   
@@ -278,9 +278,9 @@
 <p>8 逻辑运算符 <strong><em>\</em>短路与&amp;&amp;和非短路与&amp;的区别**</strong></p>
 <p>短路与&amp;&amp;: 当第一个表达式为false的时候,不会再执行第二个表达式</p>
 <p>非短路与&amp;: 当第一个表达式为false的时候,依然执行第二个表达式</p>
-<h1 id="2-关于byte和char和short做运算的情况"><a href="#2-关于byte和char和short做运算的情况" class="headerlink" title="2 关于byte和char和short做运算的情况"></a>2 关于byte和char和short做运算的情况</h1><h2 id="2-1精度小于int的数值运算的时候都会被自动转换为int后进行计算"><a href="#2-1精度小于int的数值运算的时候都会被自动转换为int后进行计算" class="headerlink" title="2.1精度小于int的数值运算的时候都会被自动转换为int后进行计算"></a>2.1精度小于int的数值运算的时候都会被自动转换为int后进行计算</h2><p><img src="/2020/03/14/%E8%BF%90%E7%AE%97%E7%AC%A6%E5%8F%8A%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2/%E5%9B%BE%E7%89%871.png" alt="img"> </p>
+<h1 id="2-关于byte和char和short做运算的情况"><a href="#2-关于byte和char和short做运算的情况" class="headerlink" title="2 关于byte和char和short做运算的情况"></a>2 关于byte和char和short做运算的情况</h1><h2 id="2-1精度小于int的数值运算的时候都会被自动转换为int后进行计算"><a href="#2-1精度小于int的数值运算的时候都会被自动转换为int后进行计算" class="headerlink" title="2.1精度小于int的数值运算的时候都会被自动转换为int后进行计算"></a>2.1精度小于int的数值运算的时候都会被自动转换为int后进行计算</h2><p><img src="/2020/03/12/%E8%BF%90%E7%AE%97%E7%AC%A6%E5%8F%8A%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2/%E5%9B%BE%E7%89%871.png" alt="img"> </p>
 <p>关于类型转换经典题目</p>
-<p><img src="/2020/03/14/%E8%BF%90%E7%AE%97%E7%AC%A6%E5%8F%8A%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2/%E5%9B%BE%E7%89%872.png" alt="img"></p>
+<p><img src="/2020/03/12/%E8%BF%90%E7%AE%97%E7%AC%A6%E5%8F%8A%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2/%E5%9B%BE%E7%89%872.png" alt="img"></p>
 
     
 
@@ -327,7 +327,7 @@
         </li>
         <li>
           <strong>本文链接：</strong>
-          <a href="http://yoursite.com/2020/03/14/运算符及数据类型转换/" title="运算符及数据类型转换" target="_blank">http://yoursite.com/2020/03/14/运算符及数据类型转换/</a>
+          <a href="http://yoursite.com/2020/03/12/运算符及数据类型转换/" title="运算符及数据类型转换" target="_blank">http://yoursite.com/2020/03/12/运算符及数据类型转换/</a>
         </li>
         
         <li>
@@ -394,7 +394,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-     <!-- <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2020/03/14/%E8%BF%90%E7%AE%97%E7%AC%A6%E5%8F%8A%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2/" alt="微信分享二维码"> -->
+     <!-- <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2020/03/12/%E8%BF%90%E7%AE%97%E7%AC%A6%E5%8F%8A%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2/" alt="微信分享二维码"> -->
     </div>
 </div>
 
@@ -419,8 +419,8 @@
     </a>
   
   
-    <a href="/2020/03/02/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">Hello World</div>
+    <a href="/2020/03/11/Java%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Java基础语法</div>
       <i class="icon-circle-right"></i>
     </a>
   
@@ -759,6 +759,35 @@
   </div>
 
   
+<script type="text/javascript" src="/plugins/TweenMax/TweenMax.min.js"></script>
+<script type="text/javascript" src="/plugins/TweenMax/HoverImg.js"></script>
+
+<script>
+
+
+  var hoverEffect = {
+    "subNav": ".left-col .social a"
+  }
+
+
+  for (var x in hoverEffect) {
+    // 初始化data-img属性值
+    let $em = document.querySelectorAll(hoverEffect[x]);
+    $em.forEach(($a) => {
+      //console.log($a.href);
+      if (isImageType($a.href)) {
+        $a.setAttribute("data-img", $a.href)
+      }
+    })
+    // 实现悬停元素预览图片效果
+    let $a = document.querySelectorAll(hoverEffect[x] + "[data-img]");
+    $a.forEach(($em) => {
+      new HoverImgFx1($em)
+    })
+  }
+
+</script>
+
   
 <script type="text/javascript" src="/plugins/activate-power-mode/activate-power-mode.js"></script>
 <script>
